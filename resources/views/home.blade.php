@@ -11,8 +11,12 @@
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
-                    @endif                   
+                    @endif         
+
                    <a href="{{ route('product') }}">Products</a>
+                   <div> user Information</div>
+                   <div> 'email' => 'admin@gmail.com',
+                        'password' => Hash::make('123')</div>
                 </div>
             </div>
         </div>
